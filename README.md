@@ -1,0 +1,2 @@
+# Text_Classification_Dataset_Preprocess
+常见的文本分类数据集，以及相关的处理代码，可以将所有数据集处理为相同格式，便于模型输入
