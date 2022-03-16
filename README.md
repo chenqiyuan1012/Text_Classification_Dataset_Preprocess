@@ -5,5 +5,12 @@
 
 [数据集地址](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M?resourcekey=0-TLwzfR2O-D2aPitmn5o9VQ)
 
+使用Google Drive存储，需要科学上网
+
 其中包括：ag_news, amazon_review, dbpedia, sogou_news, yelp_review, yahoo_answers
 
+# 处理方法
+
+## yahoo_answers
+
+将问题和回答合并
