@@ -9,7 +9,24 @@
 
 其中包括：ag_news, amazon_review, dbpedia, sogou_news, yelp_review, yahoo_answers
 
+[IMDB数据集](http://ai.stanford.edu/~amaas/data/sentiment/)
+
+下载后将Train等文件夹直接放在IMDB文件夹下即可
+
+## 格式
+最终的数据集有三种类型，训练集，无监督训练集和测试集，均为CSV文件
+
+其中训练集和测试集的格式为
+
+label,sentence，可以使用pandas中的read_csv来读取
+
+无监督训练集的格式为
+
+sentence
+
 # 处理方法
+## IMDB
+IMDB数据集中原有25000条有监督数据，25000条训练数据和50000条无监督数据，对于测试数据保持不变。对于有监督数据，从中随机采样20/500/2500条样本，各个标签数量平均分布。将其余的有监督样本去除标签后和无监督样本混合，采样70000条，得到无监督数据。
 
 ## yahoo_answers
 
